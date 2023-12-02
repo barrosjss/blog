@@ -1,27 +1,64 @@
 {
-  "name": "blog",
-  "version": "0.1.0",
+  "name": "ev0-astro-theme",
+  "version": "1.1.4",
+  "description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript.",
+  "license": "MIT",
   "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+  "author": {
+    "name": "GNDX"
   },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+  "homepage": "https://ev0.gndx.dev",
+  "contributors": [
+    {
+      "name": "Oscar Barajas @gndx",
+      "email": "oscar@gndx.dev",
+      "url": "https://gndx.dev"
+    }
+  ],
+  "keywords": [
+    "JavaScript",
+    "Astro",
+    "react",
+    "tailwindcss",
+    "typescript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gndx/ev0-astro-theme.dev.git"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "youtube": "node scripts/youtube.cjs",
+    "newpost": "astro-md-generator",
+    "format": "prettier -w .",
+    "lint:eslint": "eslint . --ext .js,.ts,.astro"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "@astrojs/mdx": "1.1.4",
+    "@astrojs/rss": "3.0.0",
+    "@astrojs/sitemap": "3.0.3",
+    "@astrojs/tailwind": "5.0.2",
+    "@tailwindcss/aspect-ratio": "0.4.2",
+    "@tailwindcss/typography": "0.5.10",
+    "@typescript-eslint/eslint-plugin": "6.11.0",
+    "@typescript-eslint/parser": "6.11.0",
+    "astro": "3.5.3",
+    "astro-compress": "2.2.3",
+    "astro-md-generator": "1.0.0",
+    "astro-robots-txt": "1.0.0",
+    "dotenv": "16.3.1",
+    "eslint": "8.53.0",
+    "eslint-plugin-astro": "0.29.1",
+    "eslint-plugin-jsx-a11y": "6.8.0",
+    "googleapis": "128.0.0",
+    "prettier": "3.1.0",
+    "prettier-plugin-astro": "0.12.2",
+    "prettier-plugin-tailwindcss": "0.5.7",
+    "tailwindcss": "3.3.5",
+    "vite-plugin-pwa": "0.16.7"
   }
 }
