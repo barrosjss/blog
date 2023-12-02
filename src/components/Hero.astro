@@ -42,16 +42,57 @@ const socialItems = social.networks;
         </figure>
       </div> -->
     </div>
-    <div class="m-auto flex space-x-5 pt-8 justify-center">
-      {
-        socialItems?.map((item) => (
-          <a href={item.url} target="_blank" rel="noopener noreferrer">
-            <figure>
-              <Fragment set:html={item.svg} />
-            </figure>
-          </a>
-        ))
-      }
+    <div class="m-auto flex justify-center">
+      <div class="block flex space-x-8 dark:hidden mt-9">
+        <figure>
+          <Image
+            src="/sponsors/CoderLabsLight.png"
+            alt="CoderLabs"
+            class="w-60 rounded bg-zinc-950 bg-opacity-0"
+            width={500}
+            height={200}
+            decoding="async"
+            loading="lazy"
+          />
+        </figure>
+        <figure>
+          <Image
+            src="/sponsors/SteamLight.png"
+            alt="STEAM Academy"
+            class="w-60 rounded bg-zinc-950 bg-opacity-0"
+            width={500}
+            height={200}
+            decoding="async"
+            loading="lazy"
+          />
+        </figure>
+      </div>
+      <div class="hidden dark:block mt-9">
+        <div class="flex space-x-8">
+          <figure>
+            <Image
+              src="/sponsors/CoderLabsDark.png"
+              alt="CoderLabs"
+              class="w-60 rounded bg-zinc-950 bg-opacity-0"
+              width={500}
+              height={200}
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <Image
+              src="/sponsors/SteamDark.png"
+              alt="STEAM Academy"
+              class="w-60 rounded bg-zinc-950 bg-opacity-0"
+              width={500}
+              height={200}
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+      </div>
     </div>
   </div>
 </section>
