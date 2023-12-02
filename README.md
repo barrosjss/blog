@@ -1,19 +1,10 @@
-# 🚀 EV0 Astro Theme - Blog Template
+# 🚀 STEAM Community - Blog 
 
-EV0 Astro Theme is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript. It serves as a starting point for creating your personal portfolio website or showcasing your projects online. The template is open-source and released under the MIT license, meaning you are free to use, modify, and distribute it for personal or commercial purposes.
+STEAM Community is a development blog focused on STEAM education, a teaching methodology that integrates the disciplines of Science, Technology, Engineering, and Mathematics (STEM) with the disciplines of the Arts (A) to promote a more holistic and practical learning. This educational approach encourages interdisciplinarity and creativity, allowing students to explore and apply their skills in various areas of knowledge.
 
-<p align="center">
-  <img align="center" alt="EV0 Astro Theme" src="https://s3.amazonaws.com/gndx.dev/ev0-astro-theme.png"/>
-</p>
+At STEAM Community, you will find content ranging from STEAM project planning to discussing challenges and opportunities in implementing STEAM education. The blog also offers resources and support materials for teachers and students, including editable STEAM planning formats. Case studies of successful STEAM projects will also be discussed, providing practical examples of how this approach can be applied in practice.
 
-<a href="https://astro.build"><img src="https://astro.badg.es/v2/built-with-astro/tiny.svg" alt="Built with Astro" width="120" height="20"></a>
-
-## 🔥 DEMOS
-
-- [EV0 Astro Theme - DEMO](https://ev0.gndx.dev/)
-- [GNDX - My Personal Blog (ES)](https://gndx.dev)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gndx/ev0-astro-theme#NODE_VERSION=18)
+STEAM Community is a valuable resource for anyone interested in STEAM education, whether they are a teacher, a student, a researcher, or simply someone interested in how education can be more integrated and practical.
 
 ## 🔥 Features
 
@@ -47,11 +38,12 @@ Clone this repository to your local machine using Git.
 git clone https://github.com/gndx/ev0-astro-theme.git your-project-name
 ```
 
+
 | Command           | Action                                       |
 | :---------------- | :------------------------------------------- |
 | `npm install`     | Installs dependencies                        |
-| `npm run dev`     | Starts local dev server at `localhost:4321`  |
-| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run dev`     | Starts local dev server at`localhost:4321`   |
+| `npm run build`   | Build your production site to`./dist/`       |
 | `npm run preview` | Preview your build locally, before deploying |
 | `npm run youtube` | Fetches the Latest YouTube Channel Videos    |
 | `npm run newpost` | Generate a New Blogpost Markdown Entry       |
@@ -171,33 +163,6 @@ Follow the instructions and this will generate a new markdown file in the `src/c
 └── .gitignore
 ```
 
-## 💻 Contributing
-
-Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please open an issue or submit a pull request.
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://gndx.io"><img src="https://avatars.githubusercontent.com/u/10554486?v=4?s=100" width="100px;" alt="Oscar Barajas Tavares"/><br /><sub><b>Oscar Barajas Tavares</b></sub></a><br /><a href="#doc-gndx" title="Documentation">📖</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://jhonachata.dev/"><img src="https://avatars.githubusercontent.com/u/7337141?v=4?s=100" width="100px;" alt="Jhon Achata Limachi"/><br /><sub><b>Jhon Achata Limachi</b></sub></a><br /><a href="#bug-dcyar" title="Bug reports">🐛</a> <a href="#ideas-dcyar" title="Ideas, Planning, & Feedback">🤔</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://erasmoh.dev"><img src="https://avatars.githubusercontent.com/u/12125288?v=4?s=100" width="100px;" alt="Erasmo Hernández"/><br /><sub><b>Erasmo Hernández</b></sub></a><br /><a href="#bug-erasmoh" title="Bug reports">🐛</a></td>
-      <td align="center" valign="top" width="14.28%"><a href="http://francisco-araujo.com"><img src="https://avatars.githubusercontent.com/u/49659840?v=4?s=100" width="100px;" alt="Francisco Araujo"/><br /><sub><b>Francisco Araujo</b></sub></a><br /><a href="#design-franciscoagx" title="Design">🎨</a> <a href="#bug-franciscoagx" title="Bug reports">🐛</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
 ## 📃 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## ☕ Support
-
-If this project helped you learn something new, or if you're feeling particularly generous, you can buy me a coffee. It's greatly appreciated! 😊 [GitHub Sponsors](https://github.com/sponsors/gndx)
