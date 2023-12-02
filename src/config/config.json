@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "EV0 ",
+    "title": "STEAM Community",
     "base_url": "https://ev0.gndx.io",
     "base_path": "/",
     "favicon": "/favicon.png",
@@ -11,15 +11,15 @@
     "pageSize": 6
   },
   "features": {
-    "youtube": true,
+    "youtube": false,
     "dark_mode": true
   },
   "metadata": {
-    "meta_author": "Oscar Barajas @gndx",
+    "meta_author": "STEAM Community",
     "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
   },
   "author": {
-    "name": "Oscar Barajas Tavares @gndx",
+    "name": "STEAM Community",
     "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
     "bio": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
   }
