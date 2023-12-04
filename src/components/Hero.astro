@@ -9,14 +9,14 @@ const socialItems = social.networks;
 <section class="bg-zinc-50 dark:bg-zinc-900">
   <div class="mx-auto max-w-screen-lg px-4 py-0 pb-6 sm:px-6 sm:pb-12 lg:px-8">
     <div class="flex items-start justify-between">
-      <div class="w-3/5 rounded-lg">
+      <div class="w-3/4 rounded-lg">
         <h1 class="mb-0 text-lg font-bold text-zinc-900 dark:text-white sm:text-3xl md:text-2xl">
           {config.author.name}
         </h1>
         <p class="mt-1.5 text-sm text-zinc-500 dark:text-zinc-400 md:text-lg">
           {config.author.bio}
         </p>
-        <div class="m-auto flex space-x-5 pt-8">
+        <!-- <div class="m-auto flex space-x-5 pt-8">
           {
             socialItems?.map((item) => (
               <a href={item.url} target="_blank" rel="noopener noreferrer">
@@ -26,7 +26,7 @@ const socialItems = social.networks;
               </a>
             ))
           }
-        </div>
+        </div> -->
       </div>
       <!-- <div class="rounded-lg">
         <figure class="right-0">
@@ -43,7 +43,7 @@ const socialItems = social.networks;
       </div> -->
     </div>
     <div class="m-auto flex justify-center">
-      <div class="block flex space-x-8 dark:hidden mt-9">
+      <div class="mt-9 block flex space-x-8 dark:hidden">
         <figure>
           <Image
             src="/sponsors/CoderLabsLight.png"
@@ -67,7 +67,7 @@ const socialItems = social.networks;
           />
         </figure>
       </div>
-      <div class="hidden dark:block mt-9">
+      <div class="mt-9 hidden dark:block">
         <div class="flex space-x-8">
           <figure>
             <Image

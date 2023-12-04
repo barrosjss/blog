@@ -7,7 +7,7 @@
     "logoLight": "/logoLight.png",
     "logoDark": "/logoDark.png",
     "lang": "en",
-    "description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript.",
+    "description": "STEAM Community es un blog de desarrollo centrado en la educación STEAM, una metodología de enseñanza que integra las disciplinas de Ciencia, Tecnología, Ingeniería y Matemáticas (STEM) con las disciplinas artísticas (A) para promover un aprendizaje más holístico y práctico. Este enfoque educativo fomenta la interdisciplinariedad y la creatividad, permitiendo a los estudiantes explorar y aplicar sus habilidades en diversas áreas de conocimiento.",
     "pageSize": 6
   },
   "features": {
@@ -16,11 +16,11 @@
   },
   "metadata": {
     "meta_author": "STEAM Community",
-    "meta_description": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "meta_description": "STEAM Community es un blog de desarrollo centrado en la educación STEAM, una metodología de enseñanza que integra las disciplinas de Ciencia, Tecnología, Ingeniería y Matemáticas (STEM) con las disciplinas artísticas (A) para promover un aprendizaje más holístico y práctico. Este enfoque educativo fomenta la interdisciplinariedad y la creatividad, permitiendo a los estudiantes explorar y aplicar sus habilidades en diversas áreas de conocimiento."
   },
   "author": {
     "name": "STEAM Community",
     "avatar": "https://s3.amazonaws.com/gndx.dev/gndx-astro-avatar.png",
-    "bio": "EV0 is a free and open-source serverless blog template, built with Astro, Tailwind CSS, and TypeScript."
+    "bio": "STEAM Community es un blog de desarrollo centrado en la educación STEAM, una metodología de enseñanza que integra las disciplinas de Ciencia, Tecnología, Ingeniería y Matemáticas (STEM) con las disciplinas artísticas (A) para promover un aprendizaje más holístico y práctico."
   }
 }
