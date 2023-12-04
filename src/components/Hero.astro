@@ -9,7 +9,7 @@ const socialItems = social.networks;
 <section class="bg-zinc-50 dark:bg-zinc-900">
   <div class="mx-auto max-w-screen-lg px-4 py-0 pb-6 sm:px-6 sm:pb-12 lg:px-8">
     <div class="flex items-start justify-between">
-      <div class="w-3/4 rounded-lg">
+      <div class="rounded-lg sm:w-full md:w-3/4">
         <h1 class="mb-0 text-lg font-bold text-zinc-900 dark:text-white sm:text-3xl md:text-2xl">
           {config.author.name}
         </h1>
@@ -43,7 +43,7 @@ const socialItems = social.networks;
       </div> -->
     </div>
     <div class="m-auto flex justify-center">
-      <div class="mt-9 block flex space-x-8 dark:hidden">
+      <div class="mt-9 block flex items-center space-x-8 dark:hidden">
         <figure>
           <Image
             src="/sponsors/CoderLabsLight.png"
@@ -66,9 +66,20 @@ const socialItems = social.networks;
             loading="lazy"
           />
         </figure>
+        <figure>
+          <Image
+            src="/sponsors/KiuraLight.png"
+            alt="Kiura"
+            class="w-44 rounded bg-zinc-950 bg-opacity-0"
+            width={500}
+            height={200}
+            decoding="async"
+            loading="lazy"
+          />
+        </figure>
       </div>
       <div class="mt-9 hidden dark:block">
-        <div class="flex space-x-8">
+        <div class="flex items-center space-x-8">
           <figure>
             <Image
               src="/sponsors/CoderLabsDark.png"
@@ -85,6 +96,17 @@ const socialItems = social.networks;
               src="/sponsors/SteamDark.png"
               alt="STEAM Academy"
               class="w-60 rounded bg-zinc-950 bg-opacity-0"
+              width={500}
+              height={200}
+              decoding="async"
+              loading="lazy"
+            />
+          </figure>
+          <figure>
+            <Image
+              src="/sponsors/KiuraDark.png"
+              alt="Kiura"
+              class="w-44 rounded bg-zinc-950 bg-opacity-0"
               width={500}
               height={200}
               decoding="async"
