@@ -5,7 +5,6 @@ pubDate: '2021-09-19T01:21:47.613Z'
 heroImage: '/blog-placeholder.jpg'
 categories: ['theoretical physics']
 tags: ['Wormholes', 'Warp Drives', 'Einstein', 'Faster-Than-Light Travel']
-author: '["gndx"]'
+author: ["gndx"]
 ---
-
 Can we travel through time and space faster than the speed of light? This article delves into the fascinating world of theoretical physics, discussing concepts like wormholes and warp drives, and the potential for cosmic time travel.

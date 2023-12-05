@@ -220,13 +220,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"230918-the-hubble-space-telescope-unveiling.md": {
-	id: "230918-the-hubble-space-telescope-unveiling.md";
-  slug: "230918-the-hubble-space-telescope-unveiling";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "230918-the-search-for-extraterrestrial-life.md": {
 	id: "230918-the-search-for-extraterrestrial-life.md";
   slug: "230918-the-search-for-extraterrestrial-life";
@@ -265,6 +258,13 @@ declare module 'astro:content' {
 "markdown-style-guide.md": {
 	id: "markdown-style-guide.md";
   slug: "markdown-style-guide";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"que-es-javascript.md": {
+	id: "que-es-javascript.md";
+  slug: "que-es-javascript";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
