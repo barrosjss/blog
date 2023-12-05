@@ -10,7 +10,7 @@ import { slugify } from "@utils/slug";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, heroImage, categories, tags } =
+const { title, description, pubDate, heroImage, categories, tags, author } =
   Astro.props;
 ---
 
@@ -48,7 +48,7 @@ const { title, description, pubDate, heroImage, categories, tags } =
               loading="lazy"
             />
           </figure>
-          <span>{config.author.name}</span>
+          <span>{author}</span>
         </div>
         <div class="mx-3 flex items-center flex-wrap font-medium mt-2">
           <CalendarIcon />
