@@ -9,8 +9,11 @@ export async function GET(context) {
     description: config.site.description,
     site: context.site,
     items: posts.map((post) => ({
-      ...post.data,
+      title: post.data.title,
+      description: post.data.description || '',
       link: `/blog/${post.slug}/`,
+      pubDate: post.data.pubDate,
+      guid: post.data.guid,
     })),
   });
 }
