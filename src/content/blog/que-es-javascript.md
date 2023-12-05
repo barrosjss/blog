@@ -2,7 +2,7 @@
 title: "¿Qué es JavaScript?"
 description: "Descubre el poder de JavaScript, el lenguaje de programación versátil que ha evolucionado desde su inicio en 1995 para ofrecer interactividad a las páginas web. ﬁ"
 pubDate: "2023-12-05T21:34:32.032Z"
-heroImage: '/blog-placeholder.jpg'
+heroImage: '/placeholders/js.png'
 categories: ['JavaScript']
 tags: ['JavaScript']
 author: ['Jesus Barros']
