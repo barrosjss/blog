@@ -185,6 +185,20 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"diseno-de-una-estructura-de-navegacion.md": {
+	id: "diseno-de-una-estructura-de-navegacion.md";
+  slug: "diseno-de-una-estructura-de-navegacion";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"introduccion-a-html.md": {
+	id: "introduccion-a-html.md";
+  slug: "introduccion-a-html";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "que-es-javascript.md": {
 	id: "que-es-javascript.md";
   slug: "que-es-javascript";
